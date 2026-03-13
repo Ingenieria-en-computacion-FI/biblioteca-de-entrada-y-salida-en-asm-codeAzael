@@ -22,4 +22,4 @@ jobs:
 
     - name: Run tests
       run: |
-        bash tests/test.sh
+        bash test/test.sh
