@@ -30,7 +30,7 @@ nasm -f elf32 print_string.asm -o print_string.o
 nasm -f elf32 newline.asm -o newline.o
 nasm -f elf32 main.asm -o main.o
 
-ld -m elf_i386 scan_int.o print_int.o scan_char.o print_char.o print_string.o scan_string.o newline.o main.o -o programa
+ld -m elf_i386 scan_int.o print_int.o scan_char.o print_char.o print_string.o scan_string.o newline.o main.o -o program
 ## Ejecutar
 
 ./program
